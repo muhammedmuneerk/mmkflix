@@ -115,9 +115,9 @@ function MovieDetail({ selectedMovie, setSelectedMovie, myList, setMyList, onPla
               )}
               <button className="my-list-button" onClick={toggleMyList}>
                 {isInMyList ? (
-                  <><i className="fas fa-check"></i> My List</>
+                  <><i className="fas fa-check"></i> Remove from my List</>
                 ) : (
-                  <><i className="fas fa-plus"></i> My List</>
+                  <><i className="fas fa-plus"></i> Add to My List</>
                 )}
               </button>
             </motion.div>

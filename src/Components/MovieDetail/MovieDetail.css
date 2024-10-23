@@ -27,8 +27,9 @@
 .movie-info {
   width: 60%;
   max-width: 800px;
+  border-radius: 35px;
   /* position: relative; */
-  position: inherit;
+  position: absolute;
   z-index: 1;
 }
 
@@ -285,6 +286,10 @@
     height: 50vh;
   }
 
+  .movie-info {
+    max-width: 310px;
+  }
+
   .movie-info h1 {
     font-size: 2.5rem;
   }
@@ -342,7 +347,8 @@
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background: linear-gradient(to top, rgba(20,20,20,1) 0%, rgba(20,20,20,0.7) 100%);
+    /* background: linear-gradient(to top, rgba(20,20,20,1) 0%, rgba(20,20,20,0.7) 100%); */
+    background: none;
   }
   .movie-info h1 {
     font-size: 1.8rem;
